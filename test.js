@@ -4,6 +4,6 @@ const { Build } = require("./lib/")
 
 let srcDir = path.join(__dirname, "temp/finder")
 let destDir = path.join(__dirname, "temp/_build")
-let uglify = true
+let uglify = false
 
 Build(srcDir, destDir, uglify)
