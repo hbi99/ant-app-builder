@@ -6,4 +6,9 @@ let srcDir = path.join(__dirname, "temp/finder")
 let destDir = path.join(__dirname, "temp/_build")
 let uglify = false
 
-Build(srcDir, destDir, uglify)
+let runIt = async() => {
+	let b = await Build(srcDir, destDir, uglify)
+	console.log(b)
+}
+
+runIt()
