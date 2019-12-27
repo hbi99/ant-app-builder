@@ -1,0 +1,26 @@
+{
+  "name": "ant-app-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbi99/ant-app-builder.git"
+  },
+  "author": "Hakan Bilgin",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hbi99/ant-app-builder/issues"
+  },
+  "homepage": "https://github.com/hbi99/ant-app-builder#readme",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "less": "^3.10.3",
+    "rollup": "^1.27.14",
+    "terser": "^4.4.3",
+    "xml-js": "^1.6.11"
+  }
+}
