@@ -1,6 +1,6 @@
 {
   "name": "ant-app-builder",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "",
   "main": "./lib",
   "scripts": {
@@ -19,8 +19,8 @@
   "dependencies": {
     "btoa": "^1.2.1",
     "less": "^3.10.3",
-    "rollup": "^1.27.14",
-    "terser": "^4.4.3",
+    "rollup": "^1.29.1",
+    "terser": "^4.6.3",
     "xml-js": "^1.6.11"
   }
 }
