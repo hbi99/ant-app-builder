@@ -8,7 +8,7 @@ let uglify = false
 
 let runIt = async() => {
 	let b = await Build(srcDir, destDir, uglify)
-	console.log(b)
+	//console.log(b)
 }
 
 runIt()
