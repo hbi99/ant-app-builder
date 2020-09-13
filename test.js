@@ -7,8 +7,8 @@ let destDir = path.join(__dirname, "temp/_build")
 let uglify = false
 
 let runIt = async() => {
-	let src = path.join(srcDir, "/src/js/modules")
-	await MinifyModules(src)
+	// let src = path.join(srcDir, "/src/js/modules")
+	// await MinifyModules(src)
 	
 	let b = await Build(srcDir, destDir, uglify)
 	//console.log(b)
