@@ -1,6 +1,6 @@
 {
-  "name": "ant-app-builder",
-  "version": "1.5.4",
+  "name": "defiant-builder",
+  "version": "1.5.5",
   "description": "",
   "main": "./lib",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hbi99/ant-app-builder.git"
+    "url": "git+https://github.com/hbi99/defiant-builder.git"
   },
   "author": "Hakan Bilgin",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/hbi99/ant-app-builder/issues"
+    "url": "https://github.com/hbi99/defiant-builder/issues"
   },
-  "homepage": "https://github.com/hbi99/ant-app-builder#readme",
+  "homepage": "https://github.com/hbi99/defiant-builder#readme",
   "dependencies": {
     "btoa": "^1.2.1",
     "jsonminify": "^0.4.1",
