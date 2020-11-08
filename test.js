@@ -2,7 +2,7 @@
 const path = require("path")
 const { Build, Bundle} = require("./lib/")
 
-let srcDir = path.join(__dirname, "temp/arcad")
+let srcDir = path.join(__dirname, "temp/about")
 let destDir = path.join(__dirname, "temp/_build")
 let uglify = false
 
