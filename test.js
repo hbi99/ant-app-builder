@@ -2,12 +2,13 @@
 const path = require("path")
 const { Build } = require("./lib/")
 
-let srcDir = path.join(__dirname, "temp/solitaire")
-let destDir = path.join(__dirname, "temp/_build")
+let source = path.join(__dirname, "temp/solitaire")
+let destination = path.join(__dirname, "temp/_build")
 let uglify = false
+let compress = true
 
 let runIt = async () => {
-	let b = await Build(srcDir, destDir, uglify)
+	let b = await Build({ source, destination, uglify, compress })
 	// console.log(b)
 }
 runIt()
