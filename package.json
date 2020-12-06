@@ -1,10 +1,10 @@
 {
   "name": "defiant-builder",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "",
   "main": "./lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/hbi99/defiant-builder#readme",
   "dependencies": {
-    "btoa": "^1.2.1",
-    "jsonminify": "^0.4.1",
+    "jszip": "^3.5.0",
     "less": "^3.10.3",
     "rollup": "^1.29.1",
     "terser": "^4.6.3",

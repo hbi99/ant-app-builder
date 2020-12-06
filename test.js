@@ -1,14 +1,14 @@
 
 const path = require("path")
-const { Build, Bundle} = require("./lib/")
+const { Build } = require("./lib/")
 
-let srcDir = path.join(__dirname, "temp/about")
+let srcDir = path.join(__dirname, "temp/solitaire")
 let destDir = path.join(__dirname, "temp/_build")
 let uglify = false
 
-let runIt = async() => {
+let runIt = async () => {
 	let b = await Build(srcDir, destDir, uglify)
-	//console.log(b)
+	// console.log(b)
 }
 runIt()
 
