@@ -8,8 +8,9 @@ let uglify = false
 let compress = true
 
 let runIt = async () => {
-	let b = await Build({ source, destination, uglify, compress })
-	// console.log(b)
+	Build({ source, destination, uglify, compress })
+		.then(success => console.log("Done!"))
+		.catch(e => console.log(e))
 }
 runIt()
 
